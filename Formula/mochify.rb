@@ -1,13 +1,13 @@
 class Mochify < Formula
-  desc "CLI and MCP server for AI-powered image optimization via mochify.xyz"
-  homepage "https://mochify.xyz"
-  version "0.2.4"
+  desc "CLI and MCP server for AI-powered image optimization via mochify.app"
+  homepage "https://mochify.app"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/getmochify/mochify-cli/releases/download/v0.2.4/mochify-macos-arm64"
-      sha256 "f4ab3cf73239b7ccbce4d031d9a8fcb803bb88b77dc06a52dfe00345ba635d93"
+      url "https://github.com/getmochify/mochify-cli/releases/download/v1.0.0/mochify-macos-arm64"
+      sha256 "30c5cb2f90a05e7f1920dd40ef9536fa2f12097ed2e5a03e2934f36713bce14d"
     end
   end
 
