@@ -7,7 +7,7 @@ class Mochify < Formula
   on_macos do
     on_arm do
       url "https://github.com/getmochify/mochify-cli/releases/download/v1.0.2/mochify-macos-arm64"
-      sha256 "sha256:58ccc8eabca6494bfdb89c378ccb18923fd15b8af3624bd4526809709bb3e3f8"
+      sha256 "58ccc8eabca6494bfdb89c378ccb18923fd15b8af3624bd4526809709bb3e3f8"
     end
   end
 
