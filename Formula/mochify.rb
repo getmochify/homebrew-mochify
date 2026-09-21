@@ -31,6 +31,6 @@ class Mochify < Formula
   end
 
   test do
-    assert_match "mochify", shell_output("#{bin}/mochify --version")
+    assert_match "mochify", shell_output("#{bin}/mochify --help")
   end
 end
